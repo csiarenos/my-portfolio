@@ -31,7 +31,9 @@ body {
 }
 
 .topdiv {
-  float: right;
+  position: absolute;
+  top: 80px;
+  right: 0;
   padding-right: 1cm;
 }
 
