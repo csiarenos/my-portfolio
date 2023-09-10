@@ -187,36 +187,61 @@ h2 {
   margin-left: 30px;
 }
 
-/* Recommendations */
-
-.all_recommendations {
-  display: flex;
-  align-items: center;
-  margin-left: 1in;
-  flex-direction: row;
-  flex-flow: wrap;
-  padding: 20px;
+/* Basic styling for the entire app container */
+#buy-me-coffee-app {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
 }
 
-.recommendation {
-  font-style: italic;
-  text-align: left;
-  width: 21.875rem;
-  padding: 1rem;
-  background-color: #fff;
-  border-radius: 11px;
-  box-shadow: 0 3px 10px var(--primary-shadow);
-  padding: 20px;
-  margin: 10px;
-  border:1px solid gray;
-  font-size: 18px;
-  height:150px
+/* Styling for the header */
+#buy-me-coffee-app header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
 }
 
-.recommendation span {
-  color: #4E31FF;
-  font-size: 20px;
-  font-family: 'Times New Roman', Times, serif;
+#buy-me-coffee-app header h1 {
+    font-size: 2rem;
+}
+
+#buy-me-coffee-app header p {
+    font-size: 1rem;
+}
+
+/* Styling for the main content */
+#buy-me-coffee-app main {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Styling for the coffee form */
+#buy-me-coffee-app #coffee-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#buy-me-coffee-app h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+#buy-me-coffee-app form {
+    text-align: center;
+}
+
+#buy-me-coffee-app form img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Styling for the footer */
+#buy-me-coffee-app footer {
+    text-align: center;
+    padding: 20px 0;
 }
 
 /* Scroll to Top Button */
@@ -233,69 +258,6 @@ h2 {
   right: 3%;
   bottom: 3%;
   cursor: pointer;
-}
-
-/* Form Pop-up */
-
-.popup {
-  width:400px;
-  background-color: #8E7BFF;
-  border-radius: 3mm;
-  top: 50%;
-  left:50%;
-  transform: translate(-50%,-50%);
-  text-align: center;
-  position: fixed;
-  /* padding: 30px; */
-  visibility: hidden;
-}
-
-.popup img {
-  padding-top: 20px;
-}
-
-.popup button {
-  background-color: #fff;
-  border: 1px solid #4E31FF;
-  color: #4E31FF;
-  display: block;
-  border-radius: 6px;
-  text-align: center;
-  margin: 50px;
-  padding: 10px;
-  width: 2in;
-  font-size: 20px;
-  margin-left: 25%;
-}
-
-.popup button:hover {
-  background-color: #fff;
-  border: 2px solid #4E31FF;
-  color: #4E31FF;
-  display: block;
-  font-weight: bolder;
-  text-align: center;
-  cursor: pointer;
-  margin-left: 25%;
-}
-
-/* Recommendation Form */
-
-input, textarea {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
-  margin: 10px;  
-  width:100%;
-}
-
-fieldset {
-  display: flexbox;
-  align-content: center;
-  justify-content: center;  
-  padding: 25px; 
-  margin-left: 50px; 
-  margin-right: 50px;   
-  border: thin solid white;
-  width: 50%;
 }
 
 /* Buttons */
